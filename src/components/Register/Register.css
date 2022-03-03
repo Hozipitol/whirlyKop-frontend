@@ -1,0 +1,172 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+#registration-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sizeing-hanreey{
+  margin: auto;
+  margin-top: 10px;
+}
+
+#registration-form-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 450px;
+  padding-top: 0px;
+}
+
+#registerHeading {
+  text-align: center;
+  color: #3770a5;
+  padding-top: 10px;
+}
+
+.register-input-styles {
+  margin: 20px;
+}
+
+.register-box {
+  height: 40px;
+}
+
+.register-inline-box {
+  width: 44%;
+}
+
+.register-single-box {
+  width: 90%;
+  margin-top: 0px;
+}
+
+.register-right-box {
+  margin-left: 15px;
+}
+
+.register-submit-btn {
+  /* display: flex; */
+  justify-content: left;
+  padding-bottom: 20px;
+}
+
+#submitDetails {
+  width: 90%;
+  box-shadow: 3px 4px 11px #867c7c;
+  margin-top: 10px;
+  height: 40px;
+  color: white;
+  background-color: #fa6a2b;
+  border: none;
+  border-radius: 5px;
+}
+
+#submitDetails:hover {
+  background-color: #0e2b6d;
+}
+
+#register-form-shadow {
+  box-shadow: 10px 10px 18px #0d98ba;
+}
+
+#error {
+  color: red;
+  text-align: center;
+  font-size: 16px;
+}
+
+#login-page {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.loginRoute>a {
+  font-size: 24px;
+  color: #2f6496;
+}
+
+.loginRoute>a:hover {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+#success {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+  height: 20px;
+  color: #147e2e;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  visibility: hidden;
+}
+
+input#cpassword {
+  height: 34px !important;
+}
+
+input#email {
+  width: -webkit-fill-available;
+}
+
+input#lastName {
+  height: 36px !important;
+}
+
+.snackbar-reg {
+  margin-top: 45px;
+}
+
+.spanndeepp {
+  color: #0e2b6d;
+  font-size: 77px;
+}
+
+.register-box {
+  padding: 8px;
+  font-size: 18px;
+  border-width: 0px;
+  border-color: #ffff !important;
+  background-color: #ffffff !important;
+  color: #0E2B6D !important;
+  border-style: hidden;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.33);
+  text-shadow: 0px 0px 17px rgba(66, 66, 66, 0.37);
+}
+
+.register-box:focus {
+  outline: none;
+}
+
+.register-form-submit {
+  background-color: #fa6a2b;
+}
+
+#phone {
+  border: none;
+  outline: none;
+}
+
+#datepicker {
+  border: none;
+  outline: none;
+}
+.datepick {
+    float: left;
+}
+.phoneNum {
+    float: inline-end;
+    margin-left: 25px;
+}

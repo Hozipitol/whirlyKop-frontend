@@ -1,0 +1,42 @@
+.row{
+    margin: 0%;
+}
+.cont1{
+    background-color: rgb(245, 222, 179);
+    padding: 5%;
+    text-align: center;
+
+    
+}
+.cont2{
+    background-color: #0d98ba;
+    padding: 5%;
+    text-align: center;   
+}
+
+.teaminfo{
+    /* font-weight: bold; */
+    font-size: larger;
+    text-align: justify;
+    text-justify: inter-word;
+    color:#000;
+}
+.teaminfo2{
+    /* font-weight: bold; */
+    font-size: larger;
+    text-align: justify;
+    text-justify: inter-word;
+    color:#ffffff;
+}
+.teamimg{
+    height: 100%;
+    width: 40%;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid #fff;
+    background-color: #fff;
+    display: block;
+  
+}
