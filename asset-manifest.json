@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/whirlyKop-frontend/static/css/main.789f010b.css",
+    "main.js": "/whirlyKop-frontend/static/js/main.8868997d.js",
+    "static/media/dominic_sir.png": "/whirlyKop-frontend/static/media/dominic_sir.af673ff0b9b6882afb0c.png",
+    "static/media/roy_sir.png": "/whirlyKop-frontend/static/media/roy_sir.668752d046b736a675fd.png",
+    "static/media/amit_sir.png": "/whirlyKop-frontend/static/media/amit_sir.a38d2f5b1bad3fdd0763.png",
+    "static/media/rahul_sir.png": "/whirlyKop-frontend/static/media/rahul_sir.cfa640bb5ac94528a82a.png",
+    "static/media/arun_sir.png": "/whirlyKop-frontend/static/media/arun_sir.578ab5a52f7365f8e5d1.png",
+    "index.html": "/whirlyKop-frontend/index.html",
+    "main.789f010b.css.map": "/whirlyKop-frontend/static/css/main.789f010b.css.map",
+    "main.8868997d.js.map": "/whirlyKop-frontend/static/js/main.8868997d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.789f010b.css",
+    "static/js/main.8868997d.js"
+  ]
+}
