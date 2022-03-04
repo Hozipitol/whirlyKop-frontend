@@ -1,8 +1,8 @@
 import React from 'react';
 import './Navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
-import { Redirect, Route, NavLink, Link } from "react-router-dom";
+import {Navbar, Container, Nav } from 'react-bootstrap'
+// import { Redirect, Route, NavLink, Link } from "react-router-dom";
 
 
 function Homebar() {

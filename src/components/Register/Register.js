@@ -44,15 +44,15 @@ function Register() {
     setUser({ ...user, phone: val });
   };
 
-  const handleClose = (reason) => {
-    if (reason === "clickaway") {
-      return;
-    }
-  }
+  // const handleClose = (reason) => {
+  //   if (reason === "clickaway") {
+  //     return;
+  //   }
+  // }
 
-  const [error, setError] = useState(null);
-  const [success, setSuccess] = useState(null);
-  const [snackBarOpen, setSnackBarOpen] = useState(false);
+  // const [error, setError] = useState(null);
+  // const [success, setSuccess] = useState(null);
+  // const [snackBarOpen, setSnackBarOpen] = useState(false);
   return (
     <div id="registration-container" className="row">
     
