@@ -18,7 +18,7 @@ function Register() {
     country: "",
     state: "",
     phone: "",
-    organization: "",
+    institution: "",
   });
   let name, value;
   const handleInputs = (e) => {
@@ -145,11 +145,11 @@ function Register() {
                 <input
                   className="register-box register-single-box"
                   type="text"
-                  value={user.organization}
+                  value={user.institution}
                   onChange={handleInputs}
-                  name="organization"
-                  id="organization"
-                  placeholder="Organization"
+                  name="institution"
+                  id="institution"
+                  placeholder="Institution"
                   required
                 />
               </div>
