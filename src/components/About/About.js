@@ -1,8 +1,9 @@
 import React from 'react'
+import CompB from './CompB'
 
 function About() {
   return (
-    <div>About</div>
+    <div><CompB /></div>
   )
 }
 
