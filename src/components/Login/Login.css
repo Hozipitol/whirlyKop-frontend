@@ -62,7 +62,7 @@
   .login-submit-btn {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding: 20px 0;
   }
   
   #login {
@@ -125,12 +125,12 @@
   .login-box:focus {
     outline: none;
   }
-  
+/*   
   .forgotpassword {
     padding-right: 30px;
     text-align: right;
     padding-bottom: 15px;
-  }
+  } */
   
   .forgotpassword>a {
     color: blue;
