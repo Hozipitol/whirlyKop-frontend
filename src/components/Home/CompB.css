@@ -1,0 +1,62 @@
+.table{
+    margin-bottom: 0;
+}
+ul li{
+
+    list-style-type: none;
+    line-height: 2;
+    
+
+}
+td{
+    font-size:large;
+}
+
+.card{
+    padding: 2%;
+    margin: 1%;
+    min-height: 400px;
+    
+}
+
+.c2{
+    background-image: linear-gradient(#74ebd5,#ACB6E5);
+
+
+}
+.cd1 li {
+    line-height:50px;        
+}
+@media (width:768px)
+{
+    .card{
+        min-height:590px;
+    }
+
+     .cd1 li {
+        line-height:40px;        
+    }
+    .cd2 li{
+        line-height:30px;        
+    }  
+
+}
+@media (width:1024px)
+{
+    .card{
+        min-height:500px;
+    }
+
+    .cd1 li {
+        line-height:60px;        
+    }
+    .cd2 li{
+        line-height:36px;        
+    } 
+
+}
+@media (width:1440px){
+    .cd2 li{
+        line-height:30px;        
+    } 
+}
