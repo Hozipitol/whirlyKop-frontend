@@ -165,7 +165,8 @@ function Register() {
               </div>
 
               <div className="register-input-styles register-single-width">
-                <label className="register-box register-single-box">
+                <label className="register-box register-single-box dob-flex">
+               
 
                   <DatePicker
                     className='datepick'

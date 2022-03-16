@@ -42,18 +42,7 @@ function Login() {
             </div>
             
 
-            <div>
-              
-              <p className="forgotpassword">
-              
-                <NavLink
-                  to="/forgotPassword"
-                  style={{ textDecoration: "none" }}
-                >
-                  Forgot Password?? Reset Here
-                </NavLink>
-              </p>
-            </div>
+            
             <div className="login-input-styles login-submit-btn">
               <input
                 type="button"
@@ -64,16 +53,33 @@ function Login() {
                 // disabled={loading}
               />
             </div>
-            <div>
+            
+          </div>
+          <div style={{display:"flex", justifyContent:"space-between"}}>
+          <div>
             Don't Have an Account?
             <NavLink
             to="/register"
             style={{ textDecoration: "none" }}
             > Register Here</NavLink>
             </div> 
+            <div>
+              
+              <p className="forgotpassword">
+              
+                <NavLink
+                  to="/forgotPassword"
+                  style={{ textDecoration: "none" }}
+                >
+                  Forgot Password?
+                </NavLink>
+              </p>
+            </div>
           </div>
           
         </div>
+        
+        
         
       </div>
     </div>
