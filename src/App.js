@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Team from './components/Team/Team';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register'
+import ForgotPassword from './components/ForgotPassword/ForgotPassword';
 function App() {
   return (
     <div className="App">
@@ -18,8 +19,10 @@ function App() {
           <Route path="/team" component={Team}/>
           <Route path="/login" component={Login}/>
           <Route path="/register" component={Register} />
+          <Route path="/forgotPassword" component={ForgotPassword} />
         </Switch>
       </BrowserRouter>
+     
     </div>
   );
 }

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Login.css';
-import {NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom';
+import Brain from '../../images/brain.png'
 
 function Login() {
   const email = useFormInput("");
@@ -20,6 +21,9 @@ function Login() {
    
     <div className="outer-log">
       <div id="container-log">
+      {/* <div className="main-content mb-5 ms-5">
+          <img src={Brain} className="w-50 ms-5" alt="bg_login" />
+        </div> */}
         <div id="form-container-log " className="align-self-center mb-5">
           <div id="login-form-shadow">
             <div className="login-input-styles">
@@ -56,13 +60,17 @@ function Login() {
             
           </div>
           <div style={{display:"flex", justifyContent:"space-between"}}>
+          <div style={{displa:"flex", flexDirection:"column"}}>
           <div>
             Don't Have an Account?
+            </div>
+            <div>
             <NavLink
             to="/register"
             style={{ textDecoration: "none" }}
             > Register Here</NavLink>
-            </div> 
+            </div>
+          </div> 
             <div>
               
               <p className="forgotpassword">
