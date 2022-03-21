@@ -1,0 +1,104 @@
+.emoji {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    height: 240px;
+    max-width: 760px;
+    width: 60%;
+    background: white;
+    z-index: -1;
+  }
+  .emoji_sub-container {
+    border-radius: 50%;
+    max-height: 200px;
+    max-width: 200px;
+    width: 100%;
+    background-color: rgb(182, 173, 173);
+    overflow: hidden;
+  }
+  .main {
+    max-height: 200px;
+    max-width: 200px;
+    width: 50%;
+  }
+
+  
+  
+  .emoji_background {
+    position: relative;
+    height: 200px;
+  }
+  .emoji_emoji {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-position: center;
+  }
+@media (max-width:1201px)
+{
+    .emoji{
+        max-height: 200px;
+        left:8%;
+    }
+    .emoji_sub-container{
+        max-height: 150px;
+        max-width: 150px;
+
+    }
+  
+  .main {
+    max-height: 150px;
+    max-width: 150px;
+    width: 50%;
+  }
+ 
+  .emoji_emoji {
+      position: relative;
+      height: 150px;
+      width: 100%;
+      background-position: center;
+    }
+} 
+@media (max-width:767px) {
+    .emoji{
+        height: 140px;
+        left:4%;
+    }
+    .emoji h1{
+        font-size: 34px!important;
+    }
+    .emoji_sub-container{
+        border-radius: 50%;
+        max-height: 100px;
+        max-width: 100px;
+        width:100%;
+        background-color: rgb(182, 173, 173);
+        overflow: hidden;
+        
+    }
+    .main{
+        max-height: 100px;
+        max-width: 100px;
+        width: 50%;
+       
+    }
+    
+    .emoji_background{
+        position: relative;
+        height:100px;
+        
+    }
+    .emoji_emoji{
+        position:relative;
+        height: 100px;
+        width:100%;
+    }
+} 
+
+
+
+
+
+ 
+  

@@ -19,6 +19,7 @@ function Homebar() {
         <Nav.Link href="/about" style={{color:"white"}}>About</Nav.Link>
         <Nav.Link href="/team" style={{ color:"white"}}>Team</Nav.Link>
         <Nav.Link href="/login" style={{ color:"white"}}>Login</Nav.Link>
+        <Nav.Link href="/dashboard" style={{ color:"white"}}>Dashboard</Nav.Link>
       </Nav>
   </Navbar.Collapse>
   </Container>

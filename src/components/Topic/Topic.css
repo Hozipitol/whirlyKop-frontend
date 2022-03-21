@@ -1,0 +1,32 @@
+.col1 {
+    width: 50vw;
+    margin: 0% auto;
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .head1 {
+    font-size: xxx-large;
+  }
+  .title1 {
+    font-size: x-large;
+  }
+  
+  .col {
+    padding: 1%;
+  }
+  .top {
+    margin: 1vh auto;
+    height: 50px;
+    border-color: #c91616;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset,
+      0px 0px 8px rgba(214, 31, 31, 0.5);
+  }
+  
+  .top:focus {
+    border-color: #c91616;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset,
+      0px 0px 8px rgba(214, 31, 31, 0.5);
+  }
+  

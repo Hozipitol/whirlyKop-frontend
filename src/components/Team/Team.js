@@ -10,7 +10,7 @@ import Amit from "../../images/amit_sir.png";
 function Team() {
   return (
     <div>
-      <div class="container-fluid cont1">
+      <div class="cont1">
         <div class="row  ">
           <div class="col-md-5">
             <div >
@@ -32,7 +32,7 @@ function Team() {
           </div>
         </div>
       </div>
-      <div class="container-fluid cont2">
+      <div class="cont2">
 
         
         <div class="row  ">
@@ -64,7 +64,7 @@ function Team() {
 
 
 
-      <div class="container-fluid cont1">
+      <div class="cont1">
           <div class="row  ">
             <div class="col-md-5">
               <div >
@@ -90,7 +90,7 @@ function Team() {
           </div>
       </div>
 
-      <div class="container-fluid cont2">
+      <div class="cont2">
           <div class="row  ">
             <div class="col-md-5">
               <div >
@@ -114,7 +114,7 @@ function Team() {
           </div>
       </div>
       
-      <div class="container-fluid cont1">
+      <div class="cont1">
           <div class="row  ">
             <div class="col-md-5">
               <div >
