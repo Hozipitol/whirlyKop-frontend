@@ -23,7 +23,7 @@ function Sidebar() {
   
   return (
     <>
-         <IconContext.Provider value={{ color: "red" }}>
+         <IconContext.Provider value={{ color: "black" }}>
         {/* All the icons now are white */}
         <div className="sidebar" style={{ backgroundColor: "white" }}>
           <Link to="#" className="menu-bars">
