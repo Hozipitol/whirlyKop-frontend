@@ -18,6 +18,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/whirlyKop-frontend" component={Home}/>
+          <Route exact path="/" component={Home}/>
           <Route path="/home" component={Home}/>
           <Route path='/dashboard' component={Topic} />
           <Route path="/about" component={About}/>
