@@ -33,7 +33,7 @@ function Login() {
           <img src={Brain} className="w-50 ms-5" alt="bg_login" />
         </div> */}
         <div id="form-container-log " className="align-self-center mb-5">
-          <h1 className="form-header">WhirlyKop</h1>
+          <h1 className="form-header">WhiyKop</h1>
           <div id="login-form-shadow">
             <div className="login-input-styles">
               <input
