@@ -1,10 +1,12 @@
 import React, {useState} from 'react';
 import './ForgotPassword.css'
-
+import Logo from '../../images/whirlykoplogo.png'
 function ForgotPassword() {
   const email = useFormInput("");
-  return (
+  return (<div className='forgot-container'>
+    <img className="forgot-logo" src={Logo} alt="Logo"/> 
     <div className="outer-otp">
+      
     <div id="container-otp">
       <div className="main-content-otp">
         <h1>Forgot Password</h1>
@@ -40,6 +42,7 @@ function ForgotPassword() {
         </div>
       </div>
     </div>
+  </div>
   </div>
   )
 }

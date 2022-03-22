@@ -1,8 +1,40 @@
 @import url("https://cdn.syncfusion.com/ej2/material.css");
+.register-left .logo{
+  float:left;
+  margin-left:3rem ;
+  height:160px;
+  width:200px;
+}
+
+.register-left_background{
+  /* background-image: url('../../images/login-background.png');
+  
+  background-size: contain;
+  background-repeat: no-repeat; */
+  background: #201d1e;
+  background: radial-gradient(farthest-corner at 60px 60px , #090444 0%, #030444 100%);
+  min-height:100vh ;
+  
+  min-width:100%;
+  position: absolute;
+  z-index:-1;
+}
+.register-left_background img{
+  position:absolute;
+  top:180px;
+  left:20px;
+  height:500px;
+  max-width:770px;
+  
+}
+
+
 
 #registration-container {
-  width: 100%;
+  
+  max-width: 60vw;
   height: 100%;
+  margin-left: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -29,7 +61,8 @@
 }
 
 .register-input-styles {
-  margin: 20px;
+  width: 30vw;
+  margin: 15px;
 }
 
 .register-box {
@@ -57,8 +90,8 @@
 }
 
 #submitDetails {
-  width: 90%;
-  box-shadow: 3px 4px 11px #867c7c;
+  width: 30%;
+ 
   margin-top: 10px;
   height: 40px;
   color: white;
@@ -72,7 +105,8 @@
 }
 
 #register-form-shadow {
-  box-shadow: 10px 10px 18px #0d98ba;
+  background: whitesmoke;
+  border-radius: 15px;
 }
 
 #error {
@@ -170,4 +204,66 @@ input#lastName {
 .phoneNum {
     float: inline-end;
     margin-left: 25px;
+}
+
+@media (max-width:1024px){
+  #registration-container{
+    margin-left: 40%;
+    
+  }
+  .register-input-styles{
+    width: 35vw;
+  }
+  .register-left_background{
+    height: 107vh;
+  }
+}
+@media (max-width:800px){
+  #registration-container{
+    margin-left: 0;
+  }
+  .register-input-styles{
+    margin-right: 20px;
+    
+    border-radius: 20px;
+    width: 300px;
+  }
+  .register-left_background img{
+    width:100%;
+    left:0;
+  }
+  .register-left_background{
+    height: 110vh;
+  }
+}
+@media (max-width:600px){
+
+  .register-input-styles{
+    
+    border-radius: 20px;
+    width: 300px;
+  }
+  #registration-container{
+    height:100vh;
+    width: 100vw;
+    position:relative;
+    left:15%;
+  
+  }
+  .register-left_background{
+    height: 125vh;
+  }
+}
+@media (max-width:400px){
+  .register-input-styles{
+    width: 250px;
+  
+  }
+  #registration-container{
+    padding-left: 10%;
+  
+  }
+  .register-left_background{
+    height:130vh;   
+  }
 }

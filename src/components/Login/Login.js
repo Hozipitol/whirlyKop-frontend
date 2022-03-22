@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './Login.css';
 import {NavLink} from 'react-router-dom';
 import Brain from '../../images/brain.png'
+import Logo from '../../images/whirlykoplogo.png'
+import LoginBack from '../../images/login-background.png'
 
 function Login() {
   const email = useFormInput("");
@@ -17,14 +19,21 @@ function Login() {
   };
 
   return (
-    <>
+    <div className="login-main-body">
    
+   <div className="login-left">
+    <img className="logo" src={Logo} alt="Logo"/> 
+    <div className="login-left_background"><img src={LoginBack} alt=" " /></div>
+    
+   </div>
     <div className="outer-log">
+      
       <div id="container-log">
       {/* <div className="main-content mb-5 ms-5">
           <img src={Brain} className="w-50 ms-5" alt="bg_login" />
         </div> */}
         <div id="form-container-log " className="align-self-center mb-5">
+          <h1 className="form-header">WhirlyKop</h1>
           <div id="login-form-shadow">
             <div className="login-input-styles">
               <input
@@ -62,13 +71,13 @@ function Login() {
           <div style={{display:"flex", justifyContent:"space-between"}}>
           <div style={{displa:"flex", flexDirection:"column"}}>
           <div>
-            Don't Have an Account?
+            
             </div>
             <div>
             <NavLink
             to="/register"
-            style={{ textDecoration: "none" }}
-            > Register Here</NavLink>
+            style={{ textDecoration: "none", color:"white"}}
+            > Register now</NavLink>
             </div>
           </div> 
             <div>
@@ -77,7 +86,7 @@ function Login() {
               
                 <NavLink
                   to="/forgotPassword"
-                  style={{ textDecoration: "none" }}
+                  style={{ textDecoration: "none", color:"white" }}
                 >
                   Forgot Password?
                 </NavLink>
@@ -91,7 +100,7 @@ function Login() {
         
       </div>
     </div>
-    </>
+    </div>
   );
 }
 const useFormInput = (initialValue) => {

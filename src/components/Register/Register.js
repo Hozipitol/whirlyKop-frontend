@@ -5,6 +5,8 @@ import { CountryDropdown, RegionDropdown } from "react-country-region-selector";
 import DatePicker from "react-date-picker";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
+import Logo from '../../images/whirlykoplogo.png'
+import LoginBack from '../../images/login-background.png'
 
 function Register() {
   const [user, setUser] = useState({
@@ -54,6 +56,13 @@ function Register() {
   // const [success, setSuccess] = useState(null);
   // const [snackBarOpen, setSnackBarOpen] = useState(false);
   return (
+    <>
+    <div className="register-left">
+    <img className="logo" src={Logo} alt="Logo"/> 
+    <div className="register-left_background"><img src={LoginBack} alt=" " /></div>
+    
+   </div>
+    
     <div id="registration-container" className="row">
     
       <div className=" p-5 col-md-5 sizeing-hanreey container">
@@ -211,6 +220,7 @@ function Register() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
