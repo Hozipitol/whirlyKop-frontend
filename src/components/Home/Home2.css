@@ -1,11 +1,21 @@
 .block {
     padding: 60px 0;
     border-bottom: 1px solid #d9d9d9;
+
+  }
+  .cov{
+    background-image: url('../../images/cov.jpg');
+    color: #fff;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-attachment: fixed;
   }
   
 .aboutBlock .contentHolder {
     text-align: center;
     margin: 0 0 50px;
+  
   }
   
   .aboutBlock .icon {
@@ -16,4 +26,13 @@
   
   .aboutBlock .content {
     text-align: center;
+  }
+  .conmap{
+    background-image: url('../../images/cov2.jpg');
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-attachment: fixed;
+    color:#fff;
+    padding: 2%;
   }
