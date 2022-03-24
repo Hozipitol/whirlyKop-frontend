@@ -14,7 +14,7 @@ function Homebar() {
   <Navbar.Brand style={{color:"white"}} href="/">WhirlyKop</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-     <Nav className="me-auto justify-content-end ml-auto">
+     <Nav className="justify-content-end ms-auto">
         <Nav.Link href="/home" style={{color:"white"}}>Home</Nav.Link>
         <Nav.Link href="/about" style={{color:"white"}}>About</Nav.Link>
         <Nav.Link href="/team" style={{ color:"white"}}>Team</Nav.Link>
